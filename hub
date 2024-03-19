@@ -56,4 +56,10 @@ GamesSection:NewButton("Zinc Hub", "Has some good money farms.", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Zinzs/luascripting/main/canyoutellitsadahoodscriptornot.lua"))()
 end)
 
+--Breaking Point
 
+GamesSection:NewLabel("Breaking Point")
+
+GamesSection:NewButton("H4R7N Hack", "Aimbot, fullbright, has legit mode and blatant.", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/H4R7NHacks/Obfuscated/master/Breaking%20Point%20H4R7N%20Hack%20v1.2.lua"))()
+end)
