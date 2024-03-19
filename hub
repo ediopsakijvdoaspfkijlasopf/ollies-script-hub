@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("ollies script hub", "Sentinel")
+local Window = Library.CreateLib("ollies script hub", "Serpent")
 
 --MAIN
 local Main = Window:NewTab("FE")
@@ -40,13 +40,20 @@ end)
 local Games = Window:NewTab("Games")
 local GamesSection = Games:NewSection("Games")
 
+--Da Hood
+
 GamesSection:NewLabel("Da Hood")
 
 GamesSection:NewButton("L Key Tool", "For mobile players using aimlocks that require the L key.", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/imLUDk7h"))()
 end)
 
-GamesSection:NewButton("Aimlock", "Use destiny tool to lock., on pc just hit the key.", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/UkY4VG5w"))()
+GamesSection:NewButton("Aimlock", "Use L tool to lock, on PC just hit the L key.", function()
+    loadstring(game:HttpGet("https://pastebin.com/JD0HhKYp",true))()
 end)
+
+GamesSection:NewButton("Zinc Hub", "Has some good money farms and a shop systen so you dont have to manually go to every store.", function()
+    loadstring(game:HttpGet("https://pastebin.com/JD0HhKYp",true))()
+end)
+
 
