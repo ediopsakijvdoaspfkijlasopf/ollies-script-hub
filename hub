@@ -44,16 +44,16 @@ local GamesSection = Games:NewSection("Games")
 
 GamesSection:NewLabel("Da Hood")
 
-GamesSection:NewButton("L Key Tool", "For mobile players using aimlocks that require the L key.", function()
+GamesSection:NewButton("L Key Tool", "For the aimlock..", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/imLUDk7h"))()
 end)
 
-GamesSection:NewButton("Aimlock", "Use L tool to lock, on PC just hit the L key.", function()
+GamesSection:NewButton("Aimlock", "Use L tool to lock, or use L key.", function()
     loadstring(game:HttpGet("https://pastebin.com/JD0HhKYp",true))()
 end)
 
-GamesSection:NewButton("Zinc Hub", "Has some good money farms and a shop systen so you dont have to manually go to every store.", function()
-    loadstring(game:HttpGet("https://pastebin.com/JD0HhKYp",true))()
+GamesSection:NewButton("Zinc Hub", "Has some good money farms.", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Zinzs/luascripting/main/canyoutellitsadahoodscriptornot.lua"))()
 end)
 
 
