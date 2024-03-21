@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("ollies script hub", "Serpent")
+local Window = Library.CreateLib("ollies script hub", "DarkTheme")
 
 --MAIN
 local Main = Window:NewTab("FE")
