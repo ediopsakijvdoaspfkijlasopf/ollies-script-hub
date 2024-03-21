@@ -17,7 +17,7 @@ VisualsSection:NewButton("ESP", "Lets you see thru walls.", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
 end)
 
---ADMIN SECTION
+--ADMIN
 local Admin = Window:NewTab("Admin")
 local AdminSection = Admin:NewSection("Admin")
 
