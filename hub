@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("ollies script hub", "Midnight")
+local Window = Library.CreateLib("ollies script hub", "Serpent")
 
 --MAIN
 local Main = Window:NewTab("FE")
@@ -38,9 +38,7 @@ end)
 --Da Hood
 
 local DaHood = Window:NewTab("Da Hood")
-local DaHoodSection = Games:NewSection("Da Hood")
-
-DaHoodSection:NewLabel("Da Hood")
+local DaHoodSection = DaHood:NewSection("Da Hood")
 
 DaHoodSection:NewButton("L Key Tool", "For the aimlock..", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/imLUDk7h"))()
@@ -55,7 +53,7 @@ DaHoodSection:NewButton("Zinc Hub", "Has some good money farms.", function()
 end)
 
 local BreakingPoint = Window:NewTab("Breaking Point")
-local BreakingPointSection = Player:NewSection("Breaking Point")
+local BreakingPointSection = BreakingPoint:NewSection("Breaking Point")
 
 --Breaking Point
 
