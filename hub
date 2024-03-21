@@ -5,8 +5,15 @@ local Window = Library.CreateLib("ollies script hub", "Sentinel")
 local Main = Window:NewTab("FE")
 local MainSection = Main:NewSection("FE")
 
-
 MainSection:NewButton("Walk on Walls", "Lets you defy gravity.", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
+end)
+
+--VISUALS
+local Visuals = Window:NewTab("Visuals")
+local VisualsSection = Visuals:NewSection("Visuals")
+
+VisualsSection:NewButton("ESP", "Lets you see thru walls.", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
 end)
 
